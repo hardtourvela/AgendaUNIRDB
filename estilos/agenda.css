@@ -1,0 +1,41 @@
+/*
+Nombre: Oscar Arturo Vela Silva
+Profesor: Octavio Aguirre Lozano
+Materia: Computacion en el Servidor WEB
+Actividad: Laboratorio #1 Manejo de datos en el servidor e interacción con el cliente mediante una aplicación web
+*/
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+th, td{
+    width: 100px;
+}
+
+th{
+    background-color: #ccc;
+}
+
+td{
+    text-align: left;
+    vertical-align: text-top;
+    height: 100px;
+}
+
+.dayHeader{
+    height: 20%;
+    width: 100%;
+}
+
+.dayBody{
+    height: 80%;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+}
+
+.selectedDate{
+    background-color: lightblue;
+}
